@@ -1,6 +1,6 @@
 # cider-nrepl Debugger, wrong coor for atom
 
-This is a mini,al reproduction project for an issue with the cider-nrepl debugger stepping to a dereferenced atom.
+This is a minimal reproduction project for an issue with the cider-nrepl debugger stepping to a dereferenced atom.
 
 The problem arises when debugging a function using an atom. In this particular case the atom is declared within a let binding.
 In order to reproduce the [issue](https://github.com/BetterThanTomorrow/calva/issues/2501):
